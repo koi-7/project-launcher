@@ -33,6 +33,6 @@ $ project-launcher
 
 # Example
 
-<img src="https://user-images.githubusercontent.com/61448492/210485776-80073555-cd89-42c4-a659-8a4b1a2595f1.png" height="40%" width="40%">
+<img src="https://user-images.githubusercontent.com/61448492/210485776-80073555-cd89-42c4-a659-8a4b1a2595f1.png">
 
 
