@@ -4,7 +4,7 @@
 
 # Project launcher for Python
 
-Project launcher for Python launches a simple project: makes direcroties, files, and sets git. When a project is launched by this launcher, the git setting is done too, so you can `push` your reopsitory of the project without `git remote add` setting.
+Project launcher for Python launches a simple project: makes direcroties, files, and sets git. When a project is launched by this launcher, the git setting is done too, so you can `push` your reopsitory of the project without `git remote add ...` setting.
 
 As executing this launcher, directories and files are made as below:
 
@@ -15,8 +15,8 @@ As executing this launcher, directories and files are made as below:
 Set `PYTHONPATH` and command alias to `~/.bashrc`.
 
 ``` bash
-export PYTHONPATH=$PYTHONPATH:/path/to/project-launcher/
-alias project-launcher='python3 -m project-launcher'
+export PYTHONPATH=$PYTHONPATH:/path/to/project-launcher-for-python/
+alias project-launcher='python3 -m project-launcher-for-python'
 ```
 
 Read `~/.bashrc` or reboot.
