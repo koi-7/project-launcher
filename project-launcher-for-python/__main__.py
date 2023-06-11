@@ -24,8 +24,9 @@ def make_files(project):
     with open(src_init, 'w'):
         pass
 
-    with open(src_main, 'w'):
-        pass
+    with open(src_main, 'w') as f:
+        f.write('#!/usr/bin/env python3\n')
+        f.write('# coding: utf-8')
 
 def git_setting(project, username):
     repository = 'github:' + username + '/' + project + '.git'
